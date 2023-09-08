@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.Scanner;
 
 public class WordManager {
@@ -29,7 +31,6 @@ public class WordManager {
 
                 + "=> 원하는 메뉴는? ");
 
-        int menu = s.nextInt();
 
         return s.nextInt();
 
@@ -55,4 +56,6 @@ public class WordManager {
             }
         }
     }
+
+
 }

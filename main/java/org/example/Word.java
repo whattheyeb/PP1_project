@@ -1,12 +1,9 @@
+package org.example;
+
 public class Word {
-
-
     private int id;
-
     private int level;
-
     private String word;
-
     private String meaning;
 
     Word() {
@@ -82,7 +79,7 @@ public class Word {
 
         String str = String.format("%-3s", slevel) +
 
-                String.format("$15s", word) + " " + meaning;
+                String.format("%15s", word) + " " + meaning;
 
         return str ;
 

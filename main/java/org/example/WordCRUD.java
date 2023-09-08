@@ -1,3 +1,7 @@
+package org.example;
+
+import org.example.ICRUD;
+        import org.example.Word;
 
         import java.util.ArrayList;
         import java.util.Scanner;
@@ -6,7 +10,7 @@ public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
 
-    WordCRUD() {
+    WordCRUD(Scanner s) {
         list = new ArrayList<>();
         this.s = s;
     }
