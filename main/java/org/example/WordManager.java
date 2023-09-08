@@ -42,7 +42,10 @@ public class WordManager {
 
             int menu = selectMenu();
 
-            if (menu == 0) break;
+            if (menu == 0) {
+                System.out.println("단어장이 종료되었습니다.");
+                break;
+            };
 
             if (menu == 4) {
 
